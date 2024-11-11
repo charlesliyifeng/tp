@@ -65,7 +65,12 @@
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
         "saving-data": "Saving data",
-        "appendix-planned-enhancements": "Appendix: Planned enhancements"
+        "undo-a-command": "Undo a command",
+        "deleting-all-graduated-students": "Deleting all graduated students",
+        "appendix-planned-enhancements": "Appendix: Planned enhancements",
+        "appendix-effort": "Appendix: Effort",
+        "overview": "Overview",
+        "challenges-faced": "Challenges faced"
       },
       "headingKeywords": {}
     },
@@ -139,7 +144,8 @@
         "room-number": "Room number",
         "emergency-contact-name": "Emergency contact name",
         "emergency-contact-phone-number": "Emergency contact phone number",
-        "graduation-year": "Graduation year"
+        "graduation-year": "Graduation year",
+        "glossary": "Glossary"
       },
       "headingKeywords": {}
     },

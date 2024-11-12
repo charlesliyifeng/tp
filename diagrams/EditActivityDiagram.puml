@@ -3,7 +3,7 @@ skin rose
 skinparam ActivityFontSize 15
 skinparam ArrowFontSize 12
 start
-:User executes add command;
+:User executes edit command;
 
 'Since the beta syntax does not support placing the condition outside the
 'diamond we place it as the true branch instead.
@@ -15,7 +15,7 @@ elseif () then ([parameters invalid])
 elseif () then ([duplicate parameters])
     :Displays contact already exists error message;
 else ([else])
-    :Adds person to the address book;
+    :Updates specified person with specified parameters;
     :Push to undo stack;
 
 endif

@@ -3,16 +3,16 @@ skin rose
 skinparam ActivityFontSize 15
 skinparam ArrowFontSize 12
 start
-:User executes clean command;
+:User executes import command;
 
 'Since the beta syntax does not support placing the condition outside the
 'diamond we place it as the true branch instead.
 
-if () then ([at least 1 contact has GradYear earlier than current year])
-    :Delete all contacts with GradYear earlier than current year from the address book;
+if () then ([filePath corresponds to a json file with valid data and format])
+    :Import data from the json file into DorManagerPro, overwriting current contacts;
+    :Add import command to undo stack;
 else ([else])
     :Display error message;
-    :Push to undo stack;
 
 endif
 stop
